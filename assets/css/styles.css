@@ -1,0 +1,49 @@
+#navbar img{
+    width: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 3px solid #191919;
+}
+
+.text-highlighted{
+    color: #97c93e !important
+}
+
+#main .carousel-inner{
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    z-index: 1;
+}
+
+#carousel .overlay a{
+    color: #fff;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+#footer {
+    background: linear-gradient(90deg, #033147, #193b52 25%, #157fb4);
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
